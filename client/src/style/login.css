@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "yekan";
+    font-style: normal;
+    font-weight: 400;
+    src : url("../fonts/yekan.eot");
+    src: local('yekan'), local('yekans'),
+       url('../fonts/yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yekan.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yekan.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yekan.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+*{
+    font-family: "yekan";
+}
+
+.BoxLarge{
+    height: 100vh;
+}
+
+.BoxLarge .Box{
+    background-color: white;
+    border: 2px solid #f1f1f1;
+}
+
+/* .BoxLarge .BoxForm{
+}
+
+.BoxLarge .DetailForm {
+} */
+
+.BoxLarge .DetailForm .Btn{
+    text-align: left;
+}
+
+.BoxLarge .DetailForm .Btn .btnActiveLR{
+    background-color: #5681f5;
+    color: white;
+}
+
+/* .BoxLarge .BoxImg{
+}
+
+.BoxLarge .InputsFrom{
+    
+}
+
+.BoxLarge .InputsFrom .flexBetween {
+
+} */
